@@ -1,0 +1,991 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<link href="bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style type="text/css">
+    body {
+        font-family: 'Inter'
+        font-style: normal;
+    }
+
+    .heading {
+        font-weight: 800;
+    }
+
+    .banner {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .movie-card {
+        height: 250px;
+        width: 160px;
+    }
+
+    .card-body.m-4 {
+    	margin-bottom: 50% !important;
+    }
+
+    h3 {
+        font-family: 'Inter';
+    }
+
+    .bg-line {
+        background-image: url(line.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .blog .carousel-indicators {
+        left: 0;
+        top: auto;
+        bottom: -40px;
+
+    }
+
+    /* The colour of the indicators */
+    .blog .carousel-indicators li {
+        background: #a3a3a3;
+        border-radius: 50%;
+        width: 8px;
+        height: 8px;
+    }
+
+    .blog .carousel-indicators .active {
+        background: #707070;
+    }
+    .custom-link{
+        text-decoration: none;
+        color: inherit;
+    }
+    .event-title{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .main-banner__info {
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAQAAAAD+Fb1AAAADklEQVR4AWNgmAmBeBgAp3wJkY5BElwAAAAASUVORK5CYII=);
+        color: white;
+        height: 17rem;
+        left: 0px;
+        position: absolute;
+        top: 0;
+        width: 292px;
+        font-size: 20px;
+        padding: 20px;
+    }
+</style>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<body>
+
+<!-- Image and text -->
+<nav class="navbar navbar-light border-bottom justify-content-center">
+    <a class="navbar-brand" href="https://ticketon.kz">
+        <img src="images/logo.png">
+    </a>
+</nav>
+<div class="container-fluid p-5 text-center">
+    
+    <!--               Promotion slider start                   -->
+    <div id="blogSliderCarousel" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+            <li data-target="#blogSliderCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#blogSliderCarousel" data-slide-to="1"></li>
+        </ol>
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+
+                            <!--.item start-->
+                <div class="carousel-item  active "><!-- First slide has "active" class -->
+                                        <a href="https://ticketon.kz/poluchayte-keshbek-bilety-s-vigodoy">
+                        <div>
+                            <!-- <div class="main-banner__info">
+                                <div class="main-banner__title">Freedom</div>
+                            </div> -->
+                            <img style="max-width: 100%; max-height: 100%" src="files/media/cashback.jpg">
+                        </div>
+                    </a>
+                </div>
+                <!--.item end-->
+                <!--.item start-->
+
+                            <!--.item start-->
+                <div class="carousel-item   "><!-- First slide has "active" class -->
+                                        <a href="https://ticketon.kzhttps://ticketon.uz/event/till-lindemann-v-tashkente-uz">
+                        <div>
+                            <!-- <div class="main-banner__info">
+                                <div class="main-banner__title">TILL LINDEMANN MEINE WELT TOUR 2026</div>
+                            </div> -->
+                            <img style="max-width: 100%; max-height: 100%" src="files/media/1448_440%20till.jpg">
+                        </div>
+                    </a>
+                </div>
+                <!--.item end-->
+                <!--.item start-->
+
+                            <!--.item start-->
+                <div class="carousel-item   "><!-- First slide has "active" class -->
+                                        <a href="https://ticketon.kz/event/andrea-bocelli-v-almaty?utm_source=web&utm_medium=slaider&utm_campaign=andrea-bocelli-v-almaty">
+                        <div>
+                            <!-- <div class="main-banner__info">
+                                <div class="main-banner__title">Андреа Бочелли в Алматы</div>
+                            </div> -->
+                            <img style="max-width: 100%; max-height: 100%" src="files/media/1448x440%D1%8C%D0%BB%D0%B3%D0%BD%D0%B2%D0%BB%D0%B2%20%282%29.jpg">
+                        </div>
+                    </a>
+                </div>
+                <!--.item end-->
+                <!--.item start-->
+
+                            <!--.item start-->
+                <div class="carousel-item   "><!-- First slide has "active" class -->
+                                        <a href="https://ticketon.kz/kairat-real-warning">
+                        <div>
+                            <!-- <div class="main-banner__info">
+                                <div class="main-banner__title">Важная информация</div>
+                            </div> -->
+                            <img style="max-width: 100%; max-height: 100%" src="files/media/Slider%20desktop%20%D1%80%D1%8C%D0%BB%D0%B2%D1%83.jpg">
+                        </div>
+                    </a>
+                </div>
+                <!--.item end-->
+                <!--.item start-->
+
+                            <!--.item start-->
+                <div class="carousel-item   "><!-- First slide has "active" class -->
+                                        <a href="https://ticketon.kz/event/shamshi-kaldayakovtyn-an-keshy?utm_source=web&utm_medium=slaider&utm_campaign=shamshi-kaldayakovtyn-an-keshy">
+                        <div>
+                            <!-- <div class="main-banner__info">
+                                <div class="main-banner__title">Шәмші Қалдаяқовтың ән кеші</div>
+                            </div> -->
+                            <img style="max-width: 100%; max-height: 100%" src="files/media/1448_440%20%D0%B2%D0%B8%D0%B5%D1%83.jpg">
+                        </div>
+                    </a>
+                </div>
+                <!--.item end-->
+                <!--.item start-->
+
+                            <!--.item start-->
+                <div class="carousel-item   "><!-- First slide has "active" class -->
+                                        <a href="https://ticketon.kz/place/artishok-teatr">
+                        <div>
+                            <!-- <div class="main-banner__info">
+                                <div class="main-banner__title">Театр ARTиШОК</div>
+                            </div> -->
+                            <img style="max-width: 100%; max-height: 100%" src="files/media/%D0%BE%D0%B1%D1%89%D0%B8%D0%B9%20%D1%81%D0%BB%D0%B0%D0%B9%D0%B4%D0%B5%D1%81%D1%8B%D0%B2%D1%81%D1%80%20%281%29.jpg">
+                        </div>
+                    </a>
+                </div>
+                <!--.item end-->
+                <!--.item start-->
+
+                            <!--.item start-->
+                <div class="carousel-item   "><!-- First slide has "active" class -->
+                                        <a href="https://ticketon.kz/event/bolshoe-smeloe-krasivoe-puteshestvie-2025?utm_source=web&utm_medium=slaider&utm_campaign=bolshoe-smeloe-krasivoe-puteshestvie-2025">
+                        <div>
+                            <!-- <div class="main-banner__info">
+                                <div class="main-banner__title">Большое смелое красивое путешествие (2025)</div>
+                            </div> -->
+                            <img style="max-width: 100%; max-height: 100%" src="files/media/1448%D1%854mjdyuke40%20%281%29.jpg">
+                        </div>
+                    </a>
+                </div>
+                <!--.item end-->
+                <!--.item start-->
+
+                            <!--.item start-->
+                <div class="carousel-item   "><!-- First slide has "active" class -->
+                                        <a href="https://ticketon.kz/event/dragwars-final-kubka-rk?utm_source=web&utm_medium=slaider&utm_campaign=dragwars-final-kubka-rk">
+                        <div>
+                            <!-- <div class="main-banner__info">
+                                <div class="main-banner__title">DRAGWARS — ФИНАЛ КУБКА РК</div>
+                            </div> -->
+                            <img style="max-width: 100%; max-height: 100%" src="files/media/SOKOL_DRAGWARS_05_TICKETON_%D0%A1%D0%BB%D0%B0%D0%B9%D0%B4%D0%B5%D1%80.png">
+                        </div>
+                    </a>
+                </div>
+                <!--.item end-->
+                <!--.item start-->
+
+                            <!--.item start-->
+                <div class="carousel-item   "><!-- First slide has "active" class -->
+                                        <a href="https://ticketon.kz/jan-theatre-gastroly">
+                        <div>
+                            <!-- <div class="main-banner__info">
+                                <div class="main-banner__title">«Jan» театры гастрольдік сапарда</div>
+                            </div> -->
+                            <img style="max-width: 100%; max-height: 100%" src="files/media/IMG_2442.PNG">
+                        </div>
+                    </a>
+                </div>
+                <!--.item end-->
+                <!--.item start-->
+
+                            <!--.item start-->
+                <div class="carousel-item   "><!-- First slide has "active" class -->
+                                        <a href="https://ticketon.kz/event/agent-and-irbis-2025?utm_source=web&utm_medium=slaider&utm_campaign=agent-and-irbis-2025">
+                        <div>
+                            <!-- <div class="main-banner__info">
+                                <div class="main-banner__title">Agent and Irbis (2025)&nbsp;</div>
+                            </div> -->
+                            <img style="max-width: 100%; max-height: 100%" src="files/media/1448%D1%85440%D1%8C%D0%B3%D0%BE%D0%B2%D0%BA%20%281%29.jpg">
+                        </div>
+                    </a>
+                </div>
+                <!--.item end-->
+                <!--.item start-->
+
+                            <!--.item start-->
+                <div class="carousel-item   "><!-- First slide has "active" class -->
+                                        <a href="https://ticketon.kz/event/bitva-za-bitvoy-2025?utm_source=web&utm_medium=slaider&utm_campaign=bitva-za-bitvoy-2025">
+                        <div>
+                            <!-- <div class="main-banner__info">
+                                <div class="main-banner__title">Битва за битвой (2025)</div>
+                            </div> -->
+                            <img style="max-width: 100%; max-height: 100%" src="files/media/Slider%20desktop%20%28mdhmd2%29.jpg">
+                        </div>
+                    </a>
+                </div>
+                <!--.item end-->
+                <!--.item start-->
+
+                            <!--.item start-->
+                <div class="carousel-item   "><!-- First slide has "active" class -->
+                                        <a href="https://ticketon.kz/vyigray-poezdky-na-bali">
+                        <div>
+                            <!-- <div class="main-banner__info">
+                                <div class="main-banner__title">Выигрывайте поездку на Бали и другие призы с Freedom Ticketon и Visa</div>
+                            </div> -->
+                            <img style="max-width: 100%; max-height: 100%" src="files/media/Slider%20desktop%20TICKETON%20x%20Visa%201448x440.jpg">
+                        </div>
+                    </a>
+                </div>
+                <!--.item end-->
+                <!--.item start-->
+
+                            <!--.item start-->
+                <div class="carousel-item   "><!-- First slide has "active" class -->
+                                        <a href="https://ticketon.kz/event/aro-acoustic-concert?utm_source=web&utm_medium=slaider&utm_campaign=aro-acoustic-concert">
+                        <div>
+                            <!-- <div class="main-banner__info">
+                                <div class="main-banner__title">ARO acoustic concert</div>
+                            </div> -->
+                            <img style="max-width: 100%; max-height: 100%" src="files/media/%D0%A1%D0%BB%D0%B0%D0%B9%D0%B4%D0%B5%D1%80%20%282%29%D1%82%D1%8B%D0%B5%D1%8B.jpg">
+                        </div>
+                    </a>
+                </div>
+                <!--.item end-->
+                <!--.item start-->
+
+                            <!--.item start-->
+                <div class="carousel-item   "><!-- First slide has "active" class -->
+                                        <a href="https://ticketon.kz/teatr-na-trubnoy">
+                        <div>
+                            <!-- <div class="main-banner__info">
+                                <div class="main-banner__title">Большие Гастроли  Московского «Театра на Трубной»&nbsp; &nbsp;&nbsp;</div>
+                            </div> -->
+                            <img style="max-width: 100%; max-height: 100%" src="files/media/Slider%20desktop%20%281%D0%BF%D0%BC%D0%BA%D1%86%29.jpg">
+                        </div>
+                    </a>
+                </div>
+                <!--.item end-->
+                <!--.item start-->
+
+                            <!--.item start-->
+                <div class="carousel-item   "><!-- First slide has "active" class -->
+                                        <a href="https://ticketon.kz/yulduz-usmanova">
+                        <div>
+                            <!-- <div class="main-banner__info">
+                                <div class="main-banner__title">Юлдуз Усманова</div>
+                            </div> -->
+                            <img style="max-width: 100%; max-height: 100%" src="files/media/Slider%20desk%D0%B0%D0%BF%D1%8B%D1%82top.jpg">
+                        </div>
+                    </a>
+                </div>
+                <!--.item end-->
+                <!--.item start-->
+
+                            <!--.item start-->
+                <div class="carousel-item   "><!-- First slide has "active" class -->
+                                        <a href="https://ticketon.kz/alsy-tur">
+                        <div>
+                            <!-- <div class="main-banner__info">
+                                <div class="main-banner__title">Алсу тур по Казахстану</div>
+                            </div> -->
+                            <img style="max-width: 100%; max-height: 100%" src="files/media/%D0%90%D0%9B%D0%A1%D0%A3%20%D0%A1%D0%BB%D0%B0%D0%B9%D0%B4%D0%B5%D1%80%201448%20%D1%85%20440%20%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B%20%20%20%D0%90%D1%81%D1%82%D0%B0%D0%BD%D0%B0%20%281%29.jpg">
+                        </div>
+                    </a>
+                </div>
+                <!--.item end-->
+                <!--.item start-->
+
+                            <!--.item start-->
+                <div class="carousel-item   "><!-- First slide has "active" class -->
+                                        <a href="https://ticketon.kz/event/zoloto-v-astane?utm_source=web&utm_medium=slaider&utm_campaign=zoloto-v-astane">
+                        <div>
+                            <!-- <div class="main-banner__info">
+                                <div class="main-banner__title">Zoloto в Астане</div>
+                            </div> -->
+                            <img style="max-width: 100%; max-height: 100%" src="files/media/1448%D1%85440%20%28%D1%8B5%29%20%281%29.png">
+                        </div>
+                    </a>
+                </div>
+                <!--.item end-->
+                <!--.item start-->
+
+                            <!--.item start-->
+                <div class="carousel-item   "><!-- First slide has "active" class -->
+                                        <a href="https://ticketon.kz/meyrambek-besbaev-i-abdizhappar-alkozha-kz">
+                        <div>
+                            <!-- <div class="main-banner__info">
+                                <div class="main-banner__title">Мейрамбек Бесбаев и Абдижаппар Алькожа</div>
+                            </div> -->
+                            <img style="max-width: 100%; max-height: 100%" src="files/media/Slider%20deskt%20%D0%B0%D0%BC%D1%83op.jpg">
+                        </div>
+                    </a>
+                </div>
+                <!--.item end-->
+                <!--.item start-->
+
+                            <!--.item start-->
+                <div class="carousel-item   "><!-- First slide has "active" class -->
+                                        <a href="https://ticketon.kz/event/alika-smekhova-roman-s-romansom-keremet?utm_source=web&utm_medium=slaider&utm_campaign=alika-smekhova-roman-s-romansom-keremet">
+                        <div>
+                            <!-- <div class="main-banner__info">
+                                <div class="main-banner__title">Алика Смехова «Роман с романсом»</div>
+                            </div> -->
+                            <img style="max-width: 100%; max-height: 100%" src="files/media/%D0%90.%20%D0%A1%D0%BC%D0%B5%D1%85%D0%BE%D0%B2%D0%B0.%20%D0%A2%D0%B8%D0%BA%D0%B5%D1%82%D0%BE%D0%BD%20%20%281448%20x%20440%20%D0%BF%D0%B8%D0%BA%D1%81.%29-2.png">
+                        </div>
+                    </a>
+                </div>
+                <!--.item end-->
+                <!--.item start-->
+
+            
+
+        </div>
+        <!--.carousel-inner-->
+    </div>
+        <!--               Promotion slider end                      -->
+
+    <h2 class="mt-4 mb-4 heading">ФК «Кайрат» - ФК «Актобе»</h2>
+
+    <div>
+    <svg style="max-width: 1053px;" width="auto" height="auto" viewbox="0 0 328 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#clip0_6836_64039)">
+            <rect width="328" height="96" rx="12" fill="url(#paint0_linear_6836_64039)"></rect>
+            <rect width="328" height="96" rx="12" fill="url(#paint1_linear_6836_64039)" fill-opacity="0.2"></rect>
+            <rect width="328" height="96" rx="12" fill="url(#paint2_linear_6836_64039)" fill-opacity="0.2"></rect>
+            <g filter="url(#filter0_bdi_6836_64039)">
+                <g clip-path="url(#clip1_6836_64039)">
+                    <rect x="12" y="12" width="72" height="72" rx="24" fill="url(#paint3_linear_6836_64039)" fill-opacity="0.1" shape-rendering="crispEdges"></rect>
+                    <g filter="url(#filter1_bdi_6836_64039)">
+                        <rect x="18" y="18" width="60" height="60" rx="20" fill="white" fill-opacity="0.05" shape-rendering="crispEdges"></rect>
+                        <rect x="18.25" y="18.25" width="59.5" height="59.5" rx="19.75" stroke="white" stroke-opacity="0.1" stroke-width="0.5" shape-rendering="crispEdges"></rect>
+                    </g>
+                    <g filter="url(#filter2_bd_6836_64039)">
+                        <rect x="24" y="24" width="48" height="48" rx="14" fill="white" fill-opacity="0.5" shape-rendering="crispEdges"></rect>
+                    </g>
+                    <g opacity="0.2" filter="url(#filter3_d_6836_64039)">
+                        <path d="M48.002 63C48.002 63 35.9209 59.2932 35.9209 41.0003V34H60.0802V41.0003C60.0802 58.6389 47.999 63 47.999 63" fill="white" fill-opacity="0.6"></path>
+                    </g>
+                    <g filter="url(#filter4_dd_6836_64039)">
+                        <mask id="mask0_6836_64039" style="mask-type:alpha" maskunits="userSpaceOnUse" x="35" y="34" width="26" height="29">
+                            <path d="M48.0027 63C48.0027 63 35.9697 59.2932 35.9697 41.0003V34H60.0327V41.0003C60.0327 58.6389 47.9997 63 47.9997 63" fill="url(#paint4_linear_6836_64039)"></path>
+                        </mask>
+                        <g mask="url(#mask0_6836_64039)">
+                            <g filter="url(#filter5_d_6836_64039)">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M44.9905 61.7567V54.4047H49.6729C54.0291 54.3951 54.837 51.9631 54.837 48.9511V47.1695H44.9875V41.2192H54.8339H54.84C58.739 41.1615 60.045 38.8912 60.045 35.8792V34H35.7827V41.2192C35.7827 54.1427 41.3815 59.3971 44.9905 61.7567Z" fill="url(#paint5_linear_6836_64039)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <rect x="12.25" y="12.25" width="71.5" height="71.5" rx="23.75" stroke="white" stroke-opacity="0.15" stroke-width="0.5" shape-rendering="crispEdges"></rect>
+            </g>
+            <g filter="url(#filter6_b_6836_64039)">
+                <rect x="61" y="61" width="22" height="22" rx="5" fill="white" fill-opacity="0.8"></rect>
+                <rect x="61.25" y="61.25" width="21.5" height="21.5" rx="4.75" stroke="white" stroke-opacity="0.5" stroke-width="0.5"></rect>
+                <path d="M77.6311 69.3281C77.4345 68.9065 77.2079 68.5211 76.9554 68.1666L71.4175 70.749L72.4537 72.9712L75.6435 71.4847C75.8589 72.2844 75.7365 73.1088 75.2945 73.8264L75.9668 75.2682L77.8653 74.3829C78.5057 72.8619 78.4488 71.0816 77.6311 69.3281Z" fill="#4285F4"></path>
+                <path d="M75.2929 73.8277C74.9271 74.423 74.3417 74.9444 73.5456 75.3156C72.0076 76.0328 70.23 75.627 69.1254 74.4779L67.167 75.3911L67.8603 76.878C69.7092 78.3097 72.3062 78.6727 74.61 77.5984C76.2023 76.8559 77.3011 75.7197 77.8634 74.3835L75.2929 73.8277Z" fill="#34A853"></path>
+                <path d="M68.436 73.4561C68.257 73.0723 68.1493 72.6708 68.1057 72.2664L67.4124 70.7796L65.454 71.6928C65.4162 72.659 65.6006 73.6437 66.0351 74.5757C66.4697 75.5076 67.1062 76.2815 67.87 76.8739L69.1351 74.4738C68.8534 74.1805 68.615 73.84 68.436 73.4561Z" fill="#FABB05"></path>
+                <path d="M70.2956 68.3462C71.1647 67.941 72.0796 67.871 72.9609 68.1568L73.8763 65.7272C72.4201 65.2724 70.8213 65.3219 69.2311 66.0634C66.928 67.1374 65.536 69.3605 65.4444 71.6971L68.0961 72.2708C67.9259 70.6859 68.7577 69.0634 70.2956 68.3462Z" fill="#E94235"></path>
+            </g>
+            <g filter="url(#filter7_b_6836_64039)">
+                <rect x="13" y="13" width="22" height="22" rx="5" fill="white" fill-opacity="0.8"></rect>
+                <rect x="13.25" y="13.25" width="21.5" height="21.5" rx="4.75" stroke="white" stroke-opacity="0.5" stroke-width="0.5"></rect>
+                <path d="M23.7279 18.5602C23.9488 17.821 23.9369 16.9725 23.5194 16.2943C22.8536 16.6418 22.1976 17.4018 21.961 18.1488C21.7384 18.7978 21.6975 19.7067 22.1173 20.3472C22.9085 20.0508 23.4834 19.2925 23.7279 18.5602Z" fill="#151516"></path>
+                <path d="M24.8752 19.2244C24.1841 19.5027 23.6724 20.0057 23.2585 20.4126C22.9919 20.6746 22.7658 20.8969 22.5584 20.9936C22.3297 21.1002 22.002 21.1314 21.6334 21.1665C21.1483 21.2127 20.5924 21.2656 20.0979 21.5061C18.9637 22.0534 18.1752 23.1275 18.0264 24.3204C17.6961 26.7222 19.85 29.0519 21.7096 30.0154C22.6191 30.497 23.679 30.9999 24.5586 30.5539C24.9433 30.3577 25.1746 30.1202 25.4141 29.8741C25.6914 29.5892 25.9798 29.2929 26.5303 29.0362C27.0551 28.7915 27.4494 28.7644 27.8282 28.7384C28.1894 28.7136 28.5365 28.6897 28.9692 28.4791C29.8888 28.0322 30.128 27.0327 30.3433 26.0257C30.5802 24.9364 30.4868 24.0331 30.4727 23.8973L30.4712 23.882C30.4712 23.882 30.4604 23.882 30.444 23.8827C30.1967 23.8937 28.3388 23.9763 27.5227 22.2664C26.835 20.8326 27.7361 19.5227 27.8841 19.3076C27.8935 19.294 27.8999 19.2846 27.9026 19.2801C26.6159 18.5942 25.3194 19.0537 24.8752 19.2244Z" fill="#151516"></path>
+            </g>
+            <text fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="12" font-weight="600" letter-spacing="0em">
+                <tspan x="94" y="26.3636">Получите карту Freedom Bank — </tspan>
+                <tspan x="94" y="41.3636">получайте выгодный кешбэк до 22%!</tspan>
+            </text>
+
+            <a href="https://freedombank.onelink.me/WNLd/ticketonemail311024">
+                <g>
+                    <rect x="94" y="52.5" width="140" height="29" rx="14.5" fill="white" fill-opacity="0.2"></rect>
+                    <text x="104" y="67" fill="white" font-family="Inter" font-size="14" font-weight="600" dominant-baseline="middle">
+                        Выпустить карту                    </text>
+                </g>
+            </a>
+        </g>
+        <defs>
+            <filter id="filter0_bdi_6836_64039" x="-4" y="0" width="104" height="104" filterunits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feflood flood-opacity="0" result="BackgroundImageFix"></feflood>
+                <fegaussianblur in="BackgroundImageFix" stddeviation="4.5"></fegaussianblur>
+                <fecomposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_6836_64039"></fecomposite>
+                <fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></fecolormatrix>
+                <feoffset dy="4"></feoffset>
+                <fegaussianblur stddeviation="8"></fegaussianblur>
+                <fecomposite in2="hardAlpha" operator="out"></fecomposite>
+                <fecolormatrix type="matrix" values="0 0 0 0 0.157492 0 0 0 0 0.182603 0 0 0 0 0.222998 0 0 0 0.68 0"></fecolormatrix>
+                <feblend mode="normal" in2="effect1_backgroundBlur_6836_64039" result="effect2_dropShadow_6836_64039"></feblend>
+                <feblend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_6836_64039" result="shape"></feblend>
+                <fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></fecolormatrix>
+                <feoffset dy="3"></feoffset>
+                <fegaussianblur stddeviation="8"></fegaussianblur>
+                <fecomposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"></fecomposite>
+                <fecolormatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.1 0"></fecolormatrix>
+                <feblend mode="normal" in2="shape" result="effect3_innerShadow_6836_64039"></feblend>
+            </filter>
+            <filter id="filter1_bdi_6836_64039" x="2" y="6" width="92" height="92" filterunits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feflood flood-opacity="0" result="BackgroundImageFix"></feflood>
+                <fegaussianblur in="BackgroundImageFix" stddeviation="4"></fegaussianblur>
+                <fecomposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_6836_64039"></fecomposite>
+                <fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></fecolormatrix>
+                <feoffset dy="4"></feoffset>
+                <fegaussianblur stddeviation="8"></fegaussianblur>
+                <fecomposite in2="hardAlpha" operator="out"></fecomposite>
+                <fecolormatrix type="matrix" values="0 0 0 0 0.157492 0 0 0 0 0.182603 0 0 0 0 0.222998 0 0 0 0.68 0"></fecolormatrix>
+                <feblend mode="normal" in2="effect1_backgroundBlur_6836_64039" result="effect2_dropShadow_6836_64039"></feblend>
+                <feblend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_6836_64039" result="shape"></feblend>
+                <fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></fecolormatrix>
+                <feoffset dy="4"></feoffset>
+                <fegaussianblur stddeviation="10.709"></fegaussianblur>
+                <fecomposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"></fecomposite>
+                <fecolormatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.15 0"></fecolormatrix>
+                <feblend mode="normal" in2="shape" result="effect3_innerShadow_6836_64039"></feblend>
+            </filter>
+            <filter id="filter2_bd_6836_64039" x="4" y="4" width="88" height="88" filterunits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feflood flood-opacity="0" result="BackgroundImageFix"></feflood>
+                <fegaussianblur in="BackgroundImageFix" stddeviation="10"></fegaussianblur>
+                <fecomposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_6836_64039"></fecomposite>
+                <fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></fecolormatrix>
+                <feoffset dy="3"></feoffset>
+                <fegaussianblur stddeviation="1.5"></fegaussianblur>
+                <fecomposite in2="hardAlpha" operator="out"></fecomposite>
+                <fecolormatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"></fecolormatrix>
+                <feblend mode="normal" in2="effect1_backgroundBlur_6836_64039" result="effect2_dropShadow_6836_64039"></feblend>
+                <feblend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_6836_64039" result="shape"></feblend>
+            </filter>
+            <filter id="filter3_d_6836_64039" x="32.9209" y="33" width="30.1592" height="35" filterunits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feflood flood-opacity="0" result="BackgroundImageFix"></feflood>
+                <fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></fecolormatrix>
+                <feoffset dy="2"></feoffset>
+                <fegaussianblur stddeviation="1.5"></fegaussianblur>
+                <fecolormatrix type="matrix" values="0 0 0 0 0.0120834 0 0 0 0 0.42031 0 0 0 0 0.725 0 0 0 1 0"></fecolormatrix>
+                <feblend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6836_64039"></feblend>
+                <feblend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_6836_64039" result="shape"></feblend>
+            </filter>
+            <filter id="filter4_dd_6836_64039" x="17.3786" y="29.7747" width="61.2453" height="64.9389" filterunits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feflood flood-opacity="0" result="BackgroundImageFix"></feflood>
+                <fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></fecolormatrix>
+                <feoffset dy="4.22526"></feoffset>
+                <fegaussianblur stddeviation="3.38021"></fegaussianblur>
+                <fecolormatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"></fecolormatrix>
+                <feblend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6836_64039"></feblend>
+                <fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></fecolormatrix>
+                <feoffset dy="14.3659"></feoffset>
+                <fegaussianblur stddeviation="9.29558"></fegaussianblur>
+                <fecolormatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"></fecolormatrix>
+                <feblend mode="normal" in2="effect1_dropShadow_6836_64039" result="effect2_dropShadow_6836_64039"></feblend>
+                <feblend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_6836_64039" result="shape"></feblend>
+            </filter>
+            <filter id="filter5_d_6836_64039" x="32.292" y="28.7639" width="34.7345" height="38.2289" filterunits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feflood flood-opacity="0" result="BackgroundImageFix"></feflood>
+                <fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></fecolormatrix>
+                <feoffset dx="1.74538"></feoffset>
+                <fegaussianblur stddeviation="2.61807"></fegaussianblur>
+                <fecomposite in2="hardAlpha" operator="out"></fecomposite>
+                <fecolormatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0"></fecolormatrix>
+                <feblend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6836_64039"></feblend>
+                <feblend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_6836_64039" result="shape"></feblend>
+            </filter>
+            <filter id="filter6_b_6836_64039" x="55" y="55" width="34" height="34" filterunits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feflood flood-opacity="0" result="BackgroundImageFix"></feflood>
+                <fegaussianblur in="BackgroundImageFix" stddeviation="3"></fegaussianblur>
+                <fecomposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_6836_64039"></fecomposite>
+                <feblend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_6836_64039" result="shape"></feblend>
+            </filter>
+            <filter id="filter7_b_6836_64039" x="7" y="7" width="34" height="34" filterunits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feflood flood-opacity="0" result="BackgroundImageFix"></feflood>
+                <fegaussianblur in="BackgroundImageFix" stddeviation="3"></fegaussianblur>
+                <fecomposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_6836_64039"></fecomposite>
+                <feblend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_6836_64039" result="shape"></feblend>
+            </filter>
+            <lineargradient id="paint0_linear_6836_64039" x1="405.5" y1="-27.0968" x2="-42.5325" y2="111.164" gradientunits="userSpaceOnUse">
+                <stop stop-color="#01D58A"></stop>
+                <stop offset="1" stop-color="#0082C2"></stop>
+            </lineargradient>
+            <lineargradient id="paint1_linear_6836_64039" x1="164" y1="0" x2="164" y2="48" gradientunits="userSpaceOnUse">
+                <stop stop-color="white"></stop>
+                <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+            </lineargradient>
+            <lineargradient id="paint2_linear_6836_64039" x1="164" y1="52.5" x2="164" y2="96" gradientunits="userSpaceOnUse">
+                <stop stop-opacity="0"></stop>
+                <stop offset="1"></stop>
+            </lineargradient>
+            <lineargradient id="paint3_linear_6836_64039" x1="48" y1="12" x2="48" y2="84" gradientunits="userSpaceOnUse">
+                <stop stop-color="#669D89"></stop>
+                <stop offset="1" stop-color="#12241E"></stop>
+            </lineargradient>
+            <lineargradient id="paint4_linear_6836_64039" x1="48.0012" y1="34" x2="48.0012" y2="63" gradientunits="userSpaceOnUse">
+                <stop stop-color="#0E5075"></stop>
+                <stop offset="1" stop-color="#23719D"></stop>
+            </lineargradient>
+            <lineargradient id="paint5_linear_6836_64039" x1="47.9139" y1="34" x2="47.9139" y2="62.6863" gradientunits="userSpaceOnUse">
+                <stop stop-color="white"></stop>
+                <stop offset="0.327525" stop-color="#DAE0E7"></stop>
+                <stop offset="0.719899" stop-color="#DBE1E8"></stop>
+                <stop offset="1" stop-color="#DBE2EA"></stop>
+            </lineargradient>
+            <clippath id="clip0_6836_64039">
+                <rect width="328" height="96" rx="12" fill="white"></rect>
+            </clippath>
+            <clippath id="clip1_6836_64039">
+                <rect x="12" y="12" width="72" height="72" rx="24" fill="white"></rect>
+            </clippath>
+        </defs>
+    </svg>
+</div>
+
+    <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+
+        <div class="" role="tab" id="headingOne1">
+            <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1" class="text-decoration-none text-dark">
+                <h3 class="mb-0 mt-4">
+                    <span class="bg-white p-4 font-weight-bold">
+                        <svg width="28" height="22" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.5605 3.0605L15.4395 0.939504L9.00005 7.379L2.56055 0.939503L0.439545 3.0605L9.00005 11.621L17.5605 3.0605Z" fill="#777D83"></path>
+                        </svg>
+                        Открыть билеты                    </span>
+                </h3>
+            </a>
+        </div>
+
+        <!-- Card body -->
+        <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
+            <div class="mt-5">
+                <h1 class="mb-5">Центральный Стадион.</h1>
+
+                
+                                
+                                    <h2 class="font-weight-normal ">
+                        Статус заказа :
+                        <span class="text-success">
+                            Подтверждено                        </span>
+                    </h2>
+                
+                <h2 class="font-weight-normal "> Дата : 2025-09-14</h2>
+                                <h2 class="font-weight-normal "> Время: 17:00</h2>
+                <h2 class="font-weight-normal "> Зал: Центральный стадион</h2>
+                                            </div>
+
+                                    <div class="card-body m-4">
+
+                                                                                                
+                        
+                        <h3 class="font-weight-normal ">
+                                                        <b>Сектор</b>: 53-юг                            <b>Ряд</b>: 12                            <b>Место</b>: 20</h3>
+                                                    
+                                                            <h3 class="font-weight-normal ">Тип билета: Базовый - Север и Юг</h3>
+                            
+
+                                                    <img class="w-50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAA/AQMAAABtkYKcAAAABlBMVEUAAAD///+l2Z/dAAAApklEQVQokXXQsQ3EIAwFUCMXdMkCSKyRLitxC0TJApkpHWtEYgHoKKL4jO5SXPLP1ZMw2B8istRv1OoOLzFJlAzgTEwlUsDQtn/YDUZ7uVwjfqH7uNd3sRvkUyfAESyfY8oAXKos9egAdOjeiwsI8+Cz1etP6Kn28Aqgu9BErgPQFEmqZn9Ch/I6UgegP8ZLTTPGYTa/YvgSOQO0gGHYJwDdR1rGJ97rU/cetZUf1AAAAABJRU5ErkJggg==" alt="">
+
+
+                            <img class="w-75 mt-5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAAoAQMAAAD36JXUAAAABlBMVEX///8AAABVwtN+AAAAAXRSTlMAQObYZgAAADVJREFUOI1j+Mx/+DM/jw2P8R+D88yf7Q+cP3DehpnnsP1hnv/8zJ9tGEblR+VH5Uflh6k8AOTDLt8+Ou4hAAAAAElFTkSuQmCC">
+                            <h4 class="font-weight-normal ">2407834396567581</h4>
+                                            </div>
+            
+                                                <hr style="height:7px; background-color: black; ">
+                    <h1>Промо купоны</h1>
+                                            <div class="card-body m-4">
+                                                            <img class="w-50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAA/AQMAAABtkYKcAAAABlBMVEUAAAD///+l2Z/dAAAApklEQVQokXXQsQ3DIBCF4UMUdPYCSKxBx0r2Ag5ewDO5Yw0kFjCdC+TLIcVFnBeqr0Dw3xGRcetO/TzhOLUx8QFgVQdNGK7+RVYY/eXX/cU3pMfOn7AHmDnPzBdAm4w+QjkAdPRWnW0AsONeom8LQBu827yOAHpNpZ55AZAeXXcImYIvSQKQ2d1GvAH0ZcbQCKNcxg4YuqY8AfQ9q5MjgPSUGOTOD95Tl/Th5JPeTgAAAABJRU5ErkJggg==" alt="">
+                                                    </div>
+                                                
+        </div>
+
+
+    </div>
+        <div class="m-5">
+            <h3>Спасибо за покупку! </h3>
+            <h3>Приятного просмотра </h3>
+                            <h3 style="color: red;">Обращаем ваше внимание, что при выходе с мероприятия повторный вход будет невозможен.</h3>
+                    </div>
+        <div>
+            <h3 class="mb-0 mt-4 ">
+
+                 <span class="bg-white p-4 font-weight-bold">
+
+                     АДРЕС                 </span>
+
+
+            </h3>
+                
+        </div>
+
+        
+    <div class="mt-5 mb-5">
+        <h3>  г. Алматы, пр. Абая 48 </h3>
+
+                    <div class="w-100 mt-5" id="map" style="height: 40rem;"></div>
+            <script src="2.1/json.txt?apikey=8f66f632-5dd0-437a-a425-b59e1732cf79&lang=ru_RU" type="text/javascript"></script>
+            <script type='text/javascript'>
+                ymaps.ready(init);
+
+                function init() {
+                    var myMap = new ymaps.Map('map', {
+                        center: [43.238253, 76.945465],
+                        zoom: 9
+                    });
+                    ymaps.geocode('г. Алматы, пр. Абая 48', {
+                        results: 1
+                    }).then(function (res) {
+
+                        var firstGeoObject = res.geoObjects.get(0),
+                            coords = firstGeoObject.geometry.getCoordinates(),
+                            bounds = firstGeoObject.properties.get('boundedBy');
+
+                        myMap.geoObjects.add(firstGeoObject);
+                        myMap.setBounds(bounds, {
+                            checkZoomRange: true
+                        });
+                    });
+                }
+
+            </script>
+            </div>
+
+    <div>
+        <h3 class="mb-0 mt-4">
+
+             <span class="bg-white p-4 font-weight-bold">
+
+                 ВАС МОГУТ ЗАИНТЕРЕСОВАТЬ             </span>
+
+
+        </h3>
+    </div>
+    <div class="mt-4">
+        <div class="row blog">
+            <div class="col-md-12">
+                <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#blogCarousel" data-slide-to="1"></li>
+                    </ol>
+
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+
+                                                    <div class="carousel-item active">
+                                <div class="row">
+                                                                            <div class="col-md-3">
+                                            <a href="https://ticketon.kz/event/ake-zhas-sakhna">
+                                                <div style="height: 20rem">
+                                                    <img style="max-width: 100%; max-height: 100%" src="files/media/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20-%202024-12-06T192248.210.jpg">
+                                                </div>
+                                                <div class="text-left mt-3 text-secondary font-weight-normal">
+                                                    <h5 class="font-weight-bold text-dark mb-3 event-title">«ӘКЕ»</h5>
+                                                                                                                                                                <h5 class="event-title">
+
+                                                            <span>от 7000 тг</span>
+
+                                                        </h5>
+                                                                                                    </div>
+                                            </a>
+
+                                        </div>
+                                                                            <div class="col-md-3">
+                                            <a href="https://ticketon.kz/event/aladdin-totalniy-teatr">
+                                                <div style="height: 20rem">
+                                                    <img style="max-width: 100%; max-height: 100%" src="files/media/aladdin-totalniy-teatr%202024-11-05%20142242.jpg">
+                                                </div>
+                                                <div class="text-left mt-3 text-secondary font-weight-normal">
+                                                    <h5 class="font-weight-bold text-dark mb-3 event-title">Аладдин</h5>
+                                                                                                                                                                <h5 class="event-title">
+
+                                                            <span>от 2 250 тг.</span>
+
+                                                        </h5>
+                                                                                                    </div>
+                                            </a>
+
+                                        </div>
+                                                                            <div class="col-md-3">
+                                            <a href="https://ticketon.kz/event/vinni-pukh-ili-den-rozhdeniya">
+                                                <div style="height: 20rem">
+                                                    <img style="max-width: 100%; max-height: 100%" src="files/media/vinni-pukh-ili-den-rozhdeniya2802.jpg">
+                                                </div>
+                                                <div class="text-left mt-3 text-secondary font-weight-normal">
+                                                    <h5 class="font-weight-bold text-dark mb-3 event-title">«Винни Пух или день рождения Кристофера Робина»</h5>
+                                                                                                                                                                <h5 class="event-title">
+
+                                                            <span>от 2 250 тг.</span>
+
+                                                        </h5>
+                                                                                                    </div>
+                                            </a>
+
+                                        </div>
+                                                                            <div class="col-md-3">
+                                            <a href="https://ticketon.kz/event/ash-pen-tok-2025">
+                                                <div style="height: 20rem">
+                                                    <img style="max-width: 100%; max-height: 100%" src="files/media/60100u53673_poster-vremenno-ne-gotov.jpg">
+                                                </div>
+                                                <div class="text-left mt-3 text-secondary font-weight-normal">
+                                                    <h5 class="font-weight-bold text-dark mb-3 event-title">Аш пен тоқ (2025)</h5>
+                                                                                                            <h5 class="event-title">
+                                                            <svg width="24" height="26" viewbox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M20.1667 3.66669H3.83333C2.54467 3.66669 1.5 4.71136 1.5 6.00002V22.3334C1.5 23.622 2.54467 24.6667 3.83333 24.6667H20.1667C21.4553 24.6667 22.5 23.622 22.5 22.3334V6.00002C22.5 4.71136 21.4553 3.66669 20.1667 3.66669Z" stroke="#777D83" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                <path d="M16.6665 1.33334V6.00001" stroke="#777D83" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                <path d="M7.3335 1.33334V6.00001" stroke="#777D83" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                <path d="M1.5 10.6667H22.5" stroke="#777D83" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                            <span>18 сентября</span>
+                                                        </h5>
+                                                                                                                                                                <h5 class="event-title">
+
+                                                            <span>от 600 тг.</span>
+
+                                                        </h5>
+                                                                                                    </div>
+                                            </a>
+
+                                        </div>
+                                    
+
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+                                                    <div class="carousel-item ">
+                                <div class="row">
+                                                                            <div class="col-md-3">
+                                            <a href="https://ticketon.kz/event/bolshoe-smeloe-krasivoe-puteshestvie-2025">
+                                                <div style="height: 20rem">
+                                                    <img style="max-width: 100%; max-height: 100%" src="files/media/1000%D1%851400%D1%80%D0%B2%D0%B5.jpg">
+                                                </div>
+                                                <div class="text-left mt-3 text-secondary font-weight-normal">
+                                                    <h5 class="font-weight-bold text-dark mb-3 event-title">Большое смелое красивое путешествие (2025)</h5>
+                                                                                                            <h5 class="event-title">
+                                                            <svg width="24" height="26" viewbox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M20.1667 3.66669H3.83333C2.54467 3.66669 1.5 4.71136 1.5 6.00002V22.3334C1.5 23.622 2.54467 24.6667 3.83333 24.6667H20.1667C21.4553 24.6667 22.5 23.622 22.5 22.3334V6.00002C22.5 4.71136 21.4553 3.66669 20.1667 3.66669Z" stroke="#777D83" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                <path d="M16.6665 1.33334V6.00001" stroke="#777D83" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                <path d="M7.3335 1.33334V6.00001" stroke="#777D83" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                <path d="M1.5 10.6667H22.5" stroke="#777D83" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                            <span>18 сентября</span>
+                                                        </h5>
+                                                                                                                                                                <h5 class="event-title">
+
+                                                            <span>от 280 тг.</span>
+
+                                                        </h5>
+                                                                                                    </div>
+                                            </a>
+
+                                        </div>
+                                                                            <div class="col-md-3">
+                                            <a href="https://ticketon.kz/event/diana-vishneva-v-almaty">
+                                                <div style="height: 20rem">
+                                                    <img style="max-width: 100%; max-height: 100%" src="files/media/58445u45664_diana-vishneva-v-almaty.jpg">
+                                                </div>
+                                                <div class="text-left mt-3 text-secondary font-weight-normal">
+                                                    <h5 class="font-weight-bold text-dark mb-3 event-title">Спектакль «Шехеразада» с Дианой Вишневой в Алматы</h5>
+                                                                                                                                                                <h5 class="event-title">
+
+                                                            <span>от 15 000 тг.</span>
+
+                                                        </h5>
+                                                                                                    </div>
+                                            </a>
+
+                                        </div>
+                                                                            <div class="col-md-3">
+                                            <a href="https://ticketon.kz/event/alika-smekhova-roman-s-romansom-keremet">
+                                                <div style="height: 20rem">
+                                                    <img style="max-width: 100%; max-height: 100%" src="files/media/58479u57013_a-smekhova-afisha.png">
+                                                </div>
+                                                <div class="text-left mt-3 text-secondary font-weight-normal">
+                                                    <h5 class="font-weight-bold text-dark mb-3 event-title">Алика Смехова «Роман с романсом»</h5>
+                                                                                                                                                                <h5 class="event-title">
+
+                                                            <span>от 9 000 тг.</span>
+
+                                                        </h5>
+                                                                                                    </div>
+                                            </a>
+
+                                        </div>
+                                                                            <div class="col-md-3">
+                                            <a href="https://ticketon.kz/event/stendap-kontsert-sashi-malogo-v-almaty">
+                                                <div style="height: 20rem">
+                                                    <img style="max-width: 100%; max-height: 100%" src="files/media/59448u57260_stendap-kontsert-sashi-maloga-v-almaty-2208.png">
+                                                </div>
+                                                <div class="text-left mt-3 text-secondary font-weight-normal">
+                                                    <h5 class="font-weight-bold text-dark mb-3 event-title">Стендап-концерт Саши Малого в Алматы</h5>
+                                                                                                                                                                <h5 class="event-title">
+
+                                                            <span>от 7 000 тг.</span>
+
+                                                        </h5>
+                                                                                                    </div>
+                                            </a>
+
+                                        </div>
+                                    
+
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+                        
+
+                    </div>
+                    <!--.carousel-inner-->
+                </div>
+                <!--.Carousel-->
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="container-fluid p-5  text-light" style="background: black">
+    <div class="mt-4 mb-4">
+        <a href="https://ticketon.kz">
+            <svg width="256" height="60" viewbox="0 0 256 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M27.948 60C27.948 60 2 52.3636 2 14.4935V0H53.8961V14.4935C53.8961 50.961 27.948 60 27.948 60Z" fill="#4FAF3B"></path>
+                <path d="M42.9105 14.57H22.0273V26.57H42.9105V30.1544C42.9105 36.2324 41.1962 41.1414 31.9235 41.1414H22.0273V57.1155C25.4559 59.2194 27.9494 59.9986 27.9494 59.9986C27.9494 59.9986 53.8975 50.9596 53.8975 14.4921V3.58301C53.8975 9.66093 51.1702 14.4921 42.9105 14.57Z" fill="#03532F"></path>
+                <path d="M68.3125 29.0643V8.5708H80.858V10.0513C80.858 11.6098 79.6112 12.8565 78.0528 12.8565H73.2995V17.1422H79.5333V18.6227C79.5333 20.1812 78.2865 21.4279 76.7281 21.4279H73.2995V29.0643H68.3125Z" fill="white"></path>
+                <path d="M88.729 17.8435H90.9108C91.768 17.8435 92.3913 17.6098 92.8589 17.2201C93.3264 16.7526 93.5602 16.1292 93.5602 15.35C93.5602 14.2591 93.1706 13.4799 92.3913 13.1682C91.9238 13.0124 91.3004 12.8565 90.5212 12.8565H88.8069V17.8435H88.729ZM83.6641 29.0643V8.5708H90.755C92.5472 8.5708 93.8719 8.72664 94.729 9.03833C95.8978 9.50586 96.8329 10.2072 97.5342 11.2201C98.2355 12.2331 98.5472 13.4799 98.5472 14.9604C98.5472 16.1292 98.3134 17.2201 97.768 18.2331C97.2225 19.2461 96.4433 20.0253 95.5082 20.5708V20.6487C95.6641 20.8825 95.9757 21.2721 96.2874 21.8955L100.261 29.0643H94.6511L90.9887 22.1292H88.6511V29.0643H83.6641Z" fill="white"></path>
+                <path d="M102.52 29.0643V8.5708H115.377V12.8565H107.584V16.5968H113.818V20.8825H107.584V24.7786H115.766V29.0643H102.52Z" fill="white"></path>
+                <path d="M118.961 29.0643V8.5708H131.818V12.8565H123.948V16.5968H130.26V20.8825H123.948V24.7786H132.208V29.0643H118.961Z" fill="white"></path>
+                <path d="M140.389 24.7786H142.415C144.208 24.7786 145.532 24.2331 146.545 23.2202C147.558 22.2072 148.026 20.7266 148.026 18.7786C148.026 16.8305 147.558 15.4279 146.545 14.415C145.532 13.402 144.208 12.9344 142.415 12.9344H140.389V24.7786ZM135.402 29.0643V8.5708H142.649C145.922 8.5708 148.493 9.50587 150.363 11.2981C152.234 13.0903 153.246 15.5838 153.246 18.7786C153.246 21.9734 152.311 24.4669 150.363 26.337C148.493 28.1292 145.922 29.0643 142.649 29.0643H135.402Z" fill="white"></path>
+                <path d="M160.573 18.7013C160.573 20.4935 161.118 21.8961 162.131 23.065C163.144 24.2338 164.469 24.7792 166.105 24.7792C167.741 24.7792 169.066 24.2338 170.079 23.065C171.092 21.8961 171.637 20.4156 171.637 18.7013C171.637 16.987 171.092 15.5844 170.079 14.4935C169.066 13.4026 167.741 12.8572 166.105 12.8572C164.469 12.8572 163.144 13.4026 162.131 14.4935C161.118 15.5844 160.573 16.987 160.573 18.7013ZM155.43 18.7013C155.43 15.7403 156.443 13.2468 158.469 11.2208C160.495 9.19483 163.066 8.25977 166.183 8.25977C169.3 8.25977 171.871 9.27275 173.897 11.2208C175.923 13.2468 176.936 15.7403 176.936 18.7013C176.936 21.7403 175.923 24.3117 173.897 26.3377C171.871 28.3637 169.3 29.3767 166.183 29.3767C163.066 29.3767 160.495 28.3637 158.469 26.3377C156.365 24.3117 155.43 21.7403 155.43 18.7013Z" fill="white"></path>
+                <path d="M179.195 29.0643L180.91 8.5708H186.364L189.325 17.2201L190.338 20.5708H190.416C190.806 19.1682 191.117 18.0773 191.429 17.2201L194.39 8.5708H199.845L201.481 29.0643H196.494L195.871 19.8695C195.793 19.402 195.793 18.9344 195.793 18.3111C195.793 17.7656 195.793 17.2981 195.793 16.9085V16.363H195.715C195.247 17.7656 194.858 18.9344 194.546 19.7916L192.364 25.7137H188.078L185.897 19.7916L184.728 16.363H184.65C184.728 17.6098 184.728 18.7786 184.65 19.7916L184.26 29.0643H179.195Z" fill="white"></path>
+                <path d="M72.598 49.638V38.3393H68.2344V35.3003H80.4681V38.3393H76.1045V49.7159H72.598V49.638Z" fill="white"></path>
+                <path d="M82.2617 49.638V35.3003H85.7682V49.638H82.2617Z" fill="white"></path>
+                <path d="M88.0273 42.4695C88.0273 40.3656 88.7286 38.5734 90.1312 37.1708C91.5338 35.7682 93.326 35.0669 95.5079 35.0669C96.5208 35.0669 97.4559 35.2227 98.4689 35.6124C99.404 35.924 100.261 36.4695 100.884 37.0929L99.2481 39.7422C98.7806 39.2747 98.2351 38.963 97.5338 38.6513C96.9105 38.3396 96.2871 38.2617 95.6637 38.2617C94.339 38.2617 93.326 38.6513 92.6247 39.4305C91.9234 40.2098 91.6118 41.2227 91.6118 42.3137C91.6118 43.4825 92.0014 44.4955 92.7027 45.3526C93.404 46.2098 94.4169 46.5994 95.7416 46.5994C97.1442 46.5994 98.391 45.976 99.5598 44.8072L101.352 47.3786C99.7936 49.0149 97.8455 49.7942 95.5858 49.7942C93.326 49.7942 91.4559 49.0929 90.1312 47.6903C88.6507 46.3656 88.0273 44.5734 88.0273 42.4695Z" fill="white"></path>
+                <path d="M103.145 49.638V35.3003H106.651V40.8328H108.132L111.093 35.3003H114.833L110.937 42.1574V42.2354L115.067 49.7159H111.093L108.054 43.8717H106.573V49.7159H103.145V49.638Z" fill="white"></path>
+                <path d="M116.703 49.638V35.3003H125.664V38.3393H120.21V40.9886H124.573V44.0276H120.21V46.7548H125.976V49.7938H116.703V49.638Z" fill="white"></path>
+                <path d="M131.274 49.638V38.3393H126.91V35.3003H139.144V38.3393H134.78V49.7159H131.274V49.638Z" fill="white"></path>
+                <path d="M157.379 49.638V35.3003H160.963L164.937 42.0016C165.093 42.3133 165.249 42.625 165.483 43.0146C165.717 43.4042 165.872 43.7938 165.95 44.0276L166.106 44.4172H166.184C166.106 43.4042 166.028 42.547 166.028 42.0016V35.3003H169.535V49.638H166.028L162.054 42.9367C161.898 42.625 161.743 42.3133 161.509 41.9237C161.275 41.5341 161.119 41.1444 161.041 40.9107L160.885 40.5211H160.807C160.885 41.5341 160.963 42.3912 160.963 42.9367V49.638H157.379Z" fill="white"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M147.481 40.0527C147.871 40.0527 148.183 40.1307 148.494 40.2865L148.105 41.1436L147.326 42.78L148.962 42.0008L149.897 41.5333C150.053 41.8449 150.131 42.2346 150.131 42.6242C150.131 44.1047 148.962 45.2735 147.481 45.2735C146.001 45.2735 144.832 44.1047 144.832 42.6242C144.91 41.2216 146.079 40.0527 147.481 40.0527Z" fill="white"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M147.48 34.7544C151.765 34.7544 155.35 38.2609 155.35 42.6245C155.35 46.9102 151.843 50.4947 147.48 50.4947C143.116 50.4947 139.609 46.9882 139.609 42.6245C139.687 38.2609 143.194 34.7544 147.48 34.7544ZM147.48 37.5596C150.285 37.5596 152.467 39.8193 152.467 42.5466C152.467 45.2739 150.207 47.5336 147.48 47.5336C144.752 47.5336 142.492 45.2739 142.492 42.5466C142.492 39.8193 144.752 37.5596 147.48 37.5596Z" fill="#4FAF3B"></path>
+            </svg>
+
+        </a>
+
+    </div>
+    <h3 class="mb-2">
+        Помощь без выходных:
+    </h3>
+    <!--    <h3 class="mb-2 font-weight-normal">СКАЧИВАЙТЕ ПРИЛОЖЕНИЕ</h3>-->
+<!--    <div class="d-flex  mb-4 w-75 justify-content-between">-->
+<!--        <img src="ios.jpg">-->
+<!---->
+<!---->
+<!--        <img src="android.jpg">-->
+<!---->
+<!--    </div>-->
+    <h3 class="font-weight-normal mb-2">МЫ В СОЦИАЛЬНЫХ СЕТЯХ</h3>
+    <div class="d-flex mb-4 w-25 ">
+
+        <a class="pr-2" href="https://bit.ly/3hr8lJ2">
+            <svg width="36" height="36" viewbox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M18 0C8.05888 0 0 8.05888 0 18C0 27.9411 8.05888 36 18 36C27.9411 36 36 27.9411 36 18C36 8.05888 27.9411 0 18 0ZM19.8763 18.7907V28.5836H15.8244V18.791H13.8001V15.4163H15.8244V13.3902C15.8244 10.6371 16.9675 9 20.215 9H22.9187V12.3751H21.2287C19.9645 12.3751 19.8809 12.8467 19.8809 13.7269L19.8763 15.416H22.9378L22.5796 18.7907H19.8763Z" fill="#A6AFB7"></path>
+            </svg>
+        </a>
+        <a class="pr-2" href="https://bit.ly/2OQYtMv">
+            <svg width="36" height="36" viewbox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M18 0C8.05888 0 0 8.05888 0 18C0 27.9411 8.05888 36 18 36C27.9411 36 36 27.9411 36 18C36 8.05888 27.9411 0 18 0ZM14.0425 8.458C15.0665 8.4114 15.3937 8.4 18.0009 8.4H17.9979C20.6059 8.4 20.9319 8.4114 21.9559 8.458C22.978 8.5048 23.676 8.6666 24.288 8.90401C24.92 9.14901 25.454 9.47701 25.988 10.011C26.522 10.5446 26.85 11.0802 27.096 11.7116C27.332 12.322 27.494 13.0196 27.542 14.0417C27.588 15.0657 27.6 15.3929 27.6 18.0001C27.6 20.6073 27.588 20.9337 27.542 21.9577C27.494 22.9794 27.332 23.6772 27.096 24.2878C26.85 24.919 26.522 25.4546 25.988 25.9882C25.4546 26.5222 24.9198 26.851 24.2886 27.0962C23.6778 27.3336 22.9794 27.4954 21.9573 27.5422C20.9333 27.5888 20.6071 27.6002 17.9997 27.6002C15.3927 27.6002 15.0657 27.5888 14.0417 27.5422C13.0198 27.4954 12.322 27.3336 11.7112 27.0962C11.0802 26.851 10.5446 26.5222 10.0112 25.9882C9.47741 25.4546 9.14941 24.919 8.90401 24.2876C8.6668 23.6772 8.505 22.9796 8.458 21.9575C8.4116 20.9335 8.4 20.6073 8.4 18.0001C8.4 15.3929 8.412 15.0655 8.4578 14.0415C8.5038 13.0198 8.6658 12.322 8.9038 11.7114C9.14981 11.0802 9.47781 10.5446 10.0118 10.011C10.5454 9.47721 11.081 9.14921 11.7124 8.90401C12.3228 8.6666 13.0204 8.5048 14.0425 8.458Z" fill="#A6AFB7"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.1397 10.1301C17.307 10.1298 17.4868 10.1299 17.681 10.13L18.0009 10.1301C20.5642 10.1301 20.868 10.1393 21.8802 10.1853C22.8162 10.2281 23.3242 10.3845 23.6626 10.5159C24.1106 10.6899 24.43 10.8979 24.7658 11.2339C25.1018 11.5699 25.3098 11.8899 25.4842 12.3379C25.6156 12.6759 25.7722 13.1839 25.8148 14.1199C25.8608 15.1319 25.8708 15.4359 25.8708 17.998C25.8708 20.56 25.8608 20.864 25.8148 21.876C25.772 22.812 25.6156 23.32 25.4842 23.658C25.3102 24.106 25.1018 24.425 24.7658 24.7608C24.4298 25.0968 24.1108 25.3048 23.6626 25.4788C23.3246 25.6108 22.8162 25.7668 21.8802 25.8096C20.8682 25.8556 20.5642 25.8657 18.0009 25.8657C15.4375 25.8657 15.1337 25.8556 14.1217 25.8096C13.1857 25.7664 12.6777 25.61 12.3391 25.4786C11.8911 25.3046 11.5711 25.0966 11.2351 24.7606C10.8991 24.4246 10.6911 24.1054 10.5167 23.6572C10.3853 23.3192 10.2287 22.8112 10.1861 21.8752C10.1401 20.8632 10.1309 20.5592 10.1309 17.9956C10.1309 15.4319 10.1401 15.1295 10.1861 14.1175C10.2289 13.1815 10.3853 12.6735 10.5167 12.3351C10.6907 11.8871 10.8991 11.5671 11.2351 11.2311C11.5711 10.8951 11.8911 10.6871 12.3391 10.5127C12.6775 10.3807 13.1857 10.2247 14.1217 10.1817C15.0073 10.1417 15.3505 10.1297 17.1397 10.1277V10.1301ZM23.1254 11.7244C22.4894 11.7244 21.9734 12.2398 21.9734 12.876C21.9734 13.512 22.4894 14.028 23.1254 14.028C23.7614 14.028 24.2774 13.512 24.2774 12.876C24.2774 12.24 23.7614 11.724 23.1254 11.724V11.7244ZM13.0709 18.0002C13.0709 15.2776 15.2783 13.0702 18.0009 13.0702H18.0007C20.7234 13.0702 22.9302 15.2776 22.9302 18.0002C22.9302 20.7228 20.7236 22.9293 18.0009 22.9293C15.2783 22.9293 13.0709 20.7228 13.0709 18.0002Z" fill="#A6AFB7"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M18.0008 14.8003C19.768 14.8003 21.2008 16.2329 21.2008 18.0003C21.2008 19.7675 19.768 21.2004 18.0008 21.2004C16.2334 21.2004 14.8008 19.7675 14.8008 18.0003C14.8008 16.2329 16.2334 14.8003 18.0008 14.8003V14.8003Z" fill="#A6AFB7"></path>
+            </svg>
+        </a>
+
+        <a class="pr-2" href="https://bit.ly/3eSurml">
+            <svg width="36" height="36" viewbox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M18 0C8.05888 0 0 8.05888 0 18C0 27.9411 8.05888 36 18 36C27.9411 36 36 27.9411 36 18C36 8.05888 27.9411 0 18 0ZM19.4656 23.6821C19.2881 23.8693 18.9416 23.9071 18.9416 23.9071H17.7941C17.7941 23.9071 15.2623 24.0564 13.032 21.7777C10.5998 19.2917 8.45215 14.3592 8.45215 14.3592C8.45215 14.3592 8.3282 14.0356 8.46248 13.8798C8.61368 13.7038 9.02593 13.6927 9.02593 13.6927L11.769 13.6752C11.769 13.6752 12.0272 13.7167 12.2122 13.8503C12.3653 13.9609 12.4507 14.1665 12.4507 14.1665C12.4507 14.1665 12.894 15.2671 13.4809 16.2627C14.6275 18.2067 15.1609 18.6317 15.5497 18.4233C16.1169 18.1201 15.9469 15.6755 15.9469 15.6755C15.9469 15.6755 15.9572 14.7887 15.6614 14.3933C15.4323 14.0872 15.0003 13.9978 14.8097 13.9729C14.6547 13.9526 14.9083 13.6005 15.237 13.4429C15.7309 13.206 16.6024 13.1922 17.6325 13.2023C18.4354 13.2106 18.6664 13.2595 18.9801 13.3341C19.708 13.5065 19.6853 14.0591 19.6363 15.2518C19.6216 15.6084 19.6046 16.0224 19.6046 16.5005C19.6046 16.6079 19.6014 16.7224 19.5981 16.8403C19.5811 17.4513 19.5616 18.1509 19.9718 18.4113C20.1821 18.5441 20.6958 18.4307 21.9814 16.2885C22.5908 15.2726 23.0472 14.0789 23.0472 14.0789C23.0472 14.0789 23.1477 13.866 23.3027 13.7747C23.4614 13.6816 23.6755 13.7102 23.6755 13.7102L26.5622 13.6927C26.5622 13.6927 27.4299 13.5904 27.5698 13.9757C27.7172 14.3785 27.2458 15.3206 26.0663 16.8637C24.9475 18.3278 24.403 18.8669 24.453 19.3436C24.4895 19.692 24.8435 20.0071 25.5226 20.6255C26.9404 21.9176 27.3205 22.5974 27.4118 22.7607C27.4193 22.7743 27.4249 22.7843 27.4289 22.7908C28.0647 23.8259 26.7237 23.9071 26.7237 23.9071L24.1591 23.9421C24.1591 23.9421 23.6088 24.049 22.8838 23.5605C22.5041 23.3048 22.133 22.8871 21.7795 22.4894C21.2397 21.8819 20.7411 21.3207 20.3155 21.4533C19.6008 21.6763 19.6224 23.1871 19.6224 23.1871C19.6224 23.1871 19.6281 23.5107 19.4656 23.6821Z" fill="#A6AFB7"></path>
+            </svg>
+        </a>
+
+
+
+
+        <!--<a href="">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M18 0C8.05888 0 0 8.05888 0 18C0 27.9411 8.05888 36 18 36C27.9411 36 36 27.9411 36 18C36 8.05888 27.9411 0 18 0ZM21.9677 13.8123C20.828 12.6701 19.2762 11.9406 17.6255 11.9406C14.3637 11.9406 11.4939 14.8436 11.4939 18.1378C11.4939 21.3984 14.3637 24.2685 17.6255 24.2685C19.2762 24.2685 20.7914 23.6094 21.9299 22.4793L21.947 23.0885C21.9314 24.9512 24.36 26.1953 25.9951 24.9177C29.6043 22.1027 29.82 14.8663 26.12 11.0019C22.5803 7.30491 16.7101 6.57114 12.2575 9.22038C6.4373 12.6837 6.32035 19.3688 8.51485 23.1683C11.763 28.7949 18.7161 28.9022 21.2143 27.8374C22.8678 27.1346 22.1323 24.9824 20.5405 25.6251C17.3967 26.8936 12.1071 25.6219 10.2586 21.355C8.56282 17.444 10.3085 13.2801 13.0367 11.3984C15.6031 9.6297 20.4283 9.11081 24.0248 12.2585C27.8836 15.635 26.2454 21.462 24.8761 22.8694C24.5252 23.227 23.8925 22.9389 23.949 22.3811L23.945 13.8529C23.945 13.6128 23.7807 12.854 22.9788 12.854L22.8494 12.8549C22.3367 12.8549 21.9677 13.2682 21.9677 13.8169V13.8123Z"
+                      fill="#A6AFB7"/>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M21.7303 17.9011C21.6074 15.5127 19.835 14.0767 17.6942 14.0767H17.6135C15.1431 14.0767 13.7729 16.0194 13.7729 18.2261C13.7729 20.6973 15.4307 22.258 17.6039 22.258C20.0272 22.258 21.6207 20.483 21.736 18.3836L21.7303 17.9011Z"
+                      fill="#A6AFB7"/>
+            </svg>
+        </a>
+
+        <a href="#">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M0 18C0 8.05888 8.05888 0 18 0C27.9411 0 36 8.05888 36 18C36 27.9411 27.9411 36 18 36C8.05888 36 0 27.9411 0 18ZM17.9878 18.289C20.6421 18.289 22.7997 16.206 22.7997 13.6452C22.7997 11.0836 20.6421 9 17.9878 9C15.334 9 13.1758 11.0836 13.1758 13.6452C13.1758 16.206 15.334 18.289 17.9878 18.289ZM22.7412 20.9633C21.8711 21.4908 20.9265 21.8649 19.947 22.0803L22.637 24.6772C23.188 25.208 23.188 26.0701 22.637 26.6015C22.0865 27.1329 21.1942 27.1329 20.6443 26.6015L17.9995 24.0497L15.357 26.6015C15.0815 26.8669 14.7204 26.9998 14.3594 26.9998C13.9989 26.9998 13.6384 26.8669 13.3629 26.6015C12.8124 26.0701 12.8124 25.2086 13.3623 24.6772L16.0526 22.0803C15.0731 21.8649 14.1285 21.4903 13.2584 20.9633C12.5999 20.5626 12.4021 19.723 12.817 19.0868C13.2308 18.4498 14.1008 18.258 14.7605 18.6588C16.7304 19.855 19.2681 19.8553 21.2391 18.6588C21.8988 18.258 22.7686 18.4498 23.1831 19.0868C23.598 19.7224 23.3997 20.5626 22.7412 20.9633Z"
+                      fill="#A6AFB7"/>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M17.9875 11.7222C19.0862 11.7222 19.9799 12.5846 19.9799 13.6451C19.9799 14.7048 19.0862 15.5678 17.9875 15.5678C16.8897 15.5678 15.9951 14.7048 15.9951 13.6451C15.9951 12.5846 16.8897 11.7222 17.9875 11.7222Z"
+                      fill="#A6AFB7"/>
+            </svg>
+        </a>-->
+
+
+
+    </div>
+    <h5 class="font-weight-thin">©2012 – 2025 ТОО “Ticketon events”. Все права защищены.            </h5>
+
+
+</div>
+
+</body>
+
+<script src="jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src='ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js'></script><script src="ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js" integrity="sha512-YYiD5ZhmJ0GCdJvx6Xe6HzHqHvMpJEPomXwPbsgcpMFPW+mQEeVBU6l9n+2Y+naq+CLbujk91vHyN18q6/RSYw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script type="text/javascript">
+    // carousel is the default bootstrap carousel class
+    $(".carousel").swipe({
+        swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
+            if (direction == 'left') $(this).carousel('next');
+            if (direction == 'right') $(this).carousel('prev');
+        },
+        allowPageScroll: "vertical"
+    });
+</script>
+
+</html>
